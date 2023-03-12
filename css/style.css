@@ -110,7 +110,7 @@ header {
     transform: scale(1);
 }
 
-.wrapper .active {
+.wrapper.active {
     height: 520px;
 }
 
@@ -272,3 +272,7 @@ transform: translateX(-400px);
 
 
 }
+
+#username::placeholder {
+    color: transparent;
+  }
